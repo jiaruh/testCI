@@ -1,6 +1,7 @@
 xcode_project: testCI.xcodeproj # path to your xcodeproj folder
 xcode_scheme: testCI
 osx_image: xcode10.1
+os: osx
 env:
     - TEST_SDK=iphonesimulator12.1 TEST_DESTINATION="platform=iOS Simulator,name=iPhone 7 Plus,OS=12.1"
 script:
