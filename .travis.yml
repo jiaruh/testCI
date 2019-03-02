@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: testCI.xcodeproj # path to your xcodeproj folder
+xcode_scheme: testCI
+osx_image: xcode10.1	
