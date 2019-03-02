@@ -5,4 +5,4 @@ env:
     - TEST_SDK=iphonesimulator12.1 TEST_DESTINATION="platform=iOS Simulator,name=iPhone 7 Plus,OS=12.1"
 script:
   - uname -a
-  - xcodebuild -project testCI.xcodeproj -scheme testCI -sdk $TEST_SDK -destination "$TEST_DESTINATION"' build test | xcpretty -c
+  - xcodebuild -project testCI.xcodeproj -scheme testCI -sdk $TEST_SDK -destination "$TEST_DESTINATION" build test | xcpretty -c
